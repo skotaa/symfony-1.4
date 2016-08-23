@@ -1,0 +1,18 @@
+{
+    "name": "skotaa/symfony-1.4",
+    "type": "library",
+    "description": "Symfony-1.4 is the unofficial Git mirror for symfony 1.4.20",
+    "keywords": ["symfony1"],
+    "homepage": "https://github.com/skotaa/symfony-1.4",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "~5.3"
+    },
+    "bin": ["data/bin/symfony"],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
